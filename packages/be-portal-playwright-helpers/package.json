@@ -1,6 +1,6 @@
 {
   "name": "@dontenwill-standard/be-portal-playwright-helpers",
-  "version": "2.0.0",
+  "version": "1.0.0",
   "description": "Playwright-Helper-Klassen für be-portal GUI-Tests",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
