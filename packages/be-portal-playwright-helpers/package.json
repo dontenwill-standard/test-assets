@@ -1,0 +1,38 @@
+{
+  "name": "@dontenwill-standard/be-portal-playwright-helpers",
+  "version": "2.0.0",
+  "description": "Playwright-Helper-Klassen für be-portal GUI-Tests",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "playwright",
+    "testing",
+    "helpers",
+    "be-portal",
+    "dontenwill"
+  ],
+  "author": "Dontenwill AG",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dontenwill-standard/test-assets.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "peerDependencies": {
+    "@playwright/test": ">=1.49.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.49.1",
+    "typescript": "^5.7.0"
+  }
+}
